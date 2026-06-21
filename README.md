@@ -4,6 +4,6 @@ This repository contains assignments and project work completed as part of the C
 
 ## Assignments
 
-| # | Title |
-|---|--------|
-| 01 | ML Foundations: Python, NumPy, Pandas, Statistics & Probability |
+| # | Assignment | Notebook |
+|---|------------|----------|
+| 01 | ML Foundations: Python, NumPy, Pandas, Statistics & Probability | [Assignment 01 Notebook](./Assignment_01_ML_Foundations/week1_subrata_kumar_dey.ipynb) |
