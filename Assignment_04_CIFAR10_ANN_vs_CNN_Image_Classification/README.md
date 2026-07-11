@@ -1,45 +1,134 @@
-# CIFAR-10 Image Classification: ANN vs CNN
+# Assignment 04 – CIFAR-10 Image Classification using ANN and CNN
 
-An image classification project on the CIFAR-10 dataset that builds and compares three models: a plain Artificial Neural Network, a Convolutional Neural Network, and a CNN trained with data augmentation. The project analyzes how model architecture and training strategy each affect performance.
+## Overview
+
+This assignment was completed as part of the **Celebal Excellence Internship (CEI) 2026** under the **Data Science (DS001)** track at **Celebal Technologies**.
+
+The objective of this assignment was to build and compare multiple deep learning models for image classification using the **CIFAR-10** dataset. The project analyzes how different neural network architectures and training strategies affect model performance by implementing an Artificial Neural Network (ANN), a Convolutional Neural Network (CNN), and a CNN trained with data augmentation.
+
+---
+
+## Problem Statement
+
+**Build and compare multiple deep learning models for image classification on the CIFAR-10 dataset.**
+
+The assignment involved designing and implementing a complete deep learning workflow covering:
+
+- Data Loading and Exploration
+- Data Preprocessing and Normalization
+- Artificial Neural Network (ANN)
+- Convolutional Neural Network (CNN)
+- Batch Normalization and Dropout
+- Data Augmentation
+- Model Training and Evaluation
+- Performance Comparison
+- Confusion Matrix and Classification Report
+- Result Analysis
+
+---
 
 ## Dataset
 
-CIFAR-10 is a set of 60,000 color images at 32 by 32 resolution across ten classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck. It splits into 50,000 training images and 10,000 test images. Keras downloads it automatically, so no manual download is needed.
+**CIFAR-10 Image Dataset**
 
-## What the notebook covers
+The CIFAR-10 dataset consists of **60,000 color images (32 × 32 pixels)** belonging to **10 different classes**:
 
-1. Loading and exploring the data
-2. Preprocessing (normalization and reshaping)
-3. An ANN baseline
-4. A CNN with batch normalization and dropout
-5. The same CNN trained with data augmentation
-6. A side by side comparison of all three models
-7. A confusion matrix and a per class report for the best model
-8. A written analysis of architectures and training strategies
+- Airplane
+- Automobile
+- Bird
+- Cat
+- Deer
+- Dog
+- Frog
+- Horse
+- Ship
+- Truck
 
-## How to run
+The dataset contains:
 
-The easiest path is Google Colab.
+- **Training Images:** 50,000
+- **Testing Images:** 10,000
 
-1. Open `CIFAR10_ANN_CNN_Project.ipynb` in Colab.
-2. Set the runtime to GPU under Runtime, Change runtime type.
-3. Choose Runtime, Run all.
+The dataset is automatically downloaded using the TensorFlow/Keras API, so no manual download is required.
 
-To run locally instead, install the dependencies and launch Jupyter:
+---
 
-```
-pip install -r requirements.txt
-jupyter notebook
-```
+## Deep Learning Models Implemented
 
-## Key takeaways
+### Artificial Neural Network (ANN)
 
-- Moving from the ANN to the CNN gives the largest jump in accuracy, because the CNN understands the spatial structure of images while the ANN does not.
-- The CNN often reaches higher accuracy with a similar or smaller parameter count, thanks to weight sharing in convolution layers.
-- Data augmentation mainly improves generalization, shown by a smaller gap between training and validation accuracy.
-- The most common errors are between visually similar classes such as cat and dog, which is largely a limit of the small image size.
+- Fully Connected Dense Layers
+- Flattened Image Input
+- Baseline Model for Performance Comparison
+
+### Convolutional Neural Network (CNN)
+
+- Convolutional Layers
+- Max Pooling Layers
+- Batch Normalization
+- Dropout Regularization
+
+### CNN with Data Augmentation
+
+The CNN model was further improved using real-time data augmentation techniques to improve generalization and reduce overfitting.
+
+---
 
 ## Files
 
-- `CIFAR10_ANN_CNN_Project.ipynb` : the full notebook
-- `requirements.txt` : Python dependencies
+| File | Description |
+|------|-------------|
+| Week4_CIFAR10_ANN_CNN_Learning_Project_Subrata_Kumar_Dey.ipynb | Completed Week 4 Image Classification Assignment Notebook |
+| requirements.txt | Python dependencies required to run the project |
+| README.md | Project documentation |
+
+---
+
+## Tools & Libraries Used
+
+- Python
+- TensorFlow
+- Keras
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Google Colab / Jupyter Notebook
+
+---
+
+## Learning Outcomes
+
+Through this assignment, the following concepts were practiced:
+
+- Image preprocessing and normalization
+- Artificial Neural Networks (ANN)
+- Convolutional Neural Networks (CNN)
+- Batch Normalization
+- Dropout Regularization
+- Data Augmentation
+- Deep Learning model training and evaluation
+- Confusion Matrix and Classification Report generation
+- Comparative analysis of deep learning architectures
+- Image classification using TensorFlow/Keras
+
+---
+
+## Key Observations
+
+- CNN significantly outperformed the baseline ANN by effectively learning spatial features from images.
+- Batch Normalization and Dropout improved model stability and reduced overfitting.
+- Data Augmentation further improved model generalization and validation performance.
+- Most classification errors occurred between visually similar classes such as cats and dogs due to the low image resolution.
+
+---
+
+## Author
+
+**Subrata Kumar Dey**
+
+Data Science Intern – CEI 2026
+
+B.Tech CSE (Cyber Security & Privacy)
+
+DIT University
