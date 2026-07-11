@@ -18,12 +18,13 @@ The assignment involved designing and implementing a complete deep learning work
 - Data Preprocessing and Normalization
 - Artificial Neural Network (ANN)
 - Convolutional Neural Network (CNN)
-- Batch Normalization and Dropout
+- Batch Normalization
+- Dropout Regularization
 - Data Augmentation
 - Model Training and Evaluation
 - Performance Comparison
-- Confusion Matrix and Classification Report
-- Result Analysis
+- Confusion Matrix
+- Classification Report
 
 ---
 
@@ -31,7 +32,9 @@ The assignment involved designing and implementing a complete deep learning work
 
 **CIFAR-10 Image Dataset**
 
-The CIFAR-10 dataset consists of **60,000 color images (32 × 32 pixels)** belonging to **10 different classes**:
+The CIFAR-10 dataset consists of **60,000 color images (32 × 32 pixels)** belonging to **10 different classes**.
+
+**Classes:**
 
 - Airplane
 - Automobile
@@ -49,17 +52,17 @@ The dataset contains:
 - **Training Images:** 50,000
 - **Testing Images:** 10,000
 
-The dataset is automatically downloaded using the TensorFlow/Keras API, so no manual download is required.
+The dataset is automatically downloaded using the TensorFlow/Keras API.
 
 ---
 
-## Deep Learning Models Implemented
+## Deep Learning Models Used
 
 ### Artificial Neural Network (ANN)
 
 - Fully Connected Dense Layers
 - Flattened Image Input
-- Baseline Model for Performance Comparison
+- Baseline Model
 
 ### Convolutional Neural Network (CNN)
 
@@ -70,7 +73,7 @@ The dataset is automatically downloaded using the TensorFlow/Keras API, so no ma
 
 ### CNN with Data Augmentation
 
-The CNN model was further improved using real-time data augmentation techniques to improve generalization and reduce overfitting.
+The CNN model was further improved using real-time data augmentation techniques to improve model generalization and reduce overfitting.
 
 ---
 
@@ -78,7 +81,7 @@ The CNN model was further improved using real-time data augmentation techniques 
 
 | File | Description |
 |------|-------------|
-| | week4_subrata_kumar_dey.ipynb | Completed Week 4 Image Classification Assignment Notebook |
+| week4_subrata_kumar_dey.ipynb | Completed Week 4 Image Classification Assignment Notebook |
 | requirements.txt | Python dependencies required to run the project |
 | README.md | Project documentation |
 
@@ -118,7 +121,7 @@ Through this assignment, the following concepts were practiced:
 
 - CNN significantly outperformed the baseline ANN by effectively learning spatial features from images.
 - Batch Normalization and Dropout improved model stability and reduced overfitting.
-- Data Augmentation further improved model generalization and validation performance.
+- Data Augmentation improved model generalization and validation performance.
 - Most classification errors occurred between visually similar classes such as cats and dogs due to the low image resolution.
 
 ---
