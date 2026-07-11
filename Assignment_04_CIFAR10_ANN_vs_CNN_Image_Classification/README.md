@@ -78,7 +78,7 @@ The CNN model was further improved using real-time data augmentation techniques 
 
 | File | Description |
 |------|-------------|
-| Week4_CIFAR10_ANN_CNN_Learning_Project_Subrata_Kumar_Dey.ipynb | Completed Week 4 Image Classification Assignment Notebook |
+| | week4_subrata_kumar_dey.ipynb | Completed Week 4 Image Classification Assignment Notebook |
 | requirements.txt | Python dependencies required to run the project |
 | README.md | Project documentation |
 
