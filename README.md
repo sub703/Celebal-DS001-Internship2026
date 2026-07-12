@@ -13,9 +13,9 @@ This repository showcases assignments, practical exercises, and project work com
 
 ---
 
-## Internship Skills Covered
+## Internship Skills Covered (So Far)
 
-Throughout the internship, the following concepts and technologies were explored:
+Throughout the internship so far, the following concepts and technologies have been explored:
 
 - Python Programming
 - NumPy & Pandas
