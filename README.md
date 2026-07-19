@@ -6,10 +6,10 @@ This repository showcases assignments, practical exercises, and project work com
 
 | # | Assignment | Notebook |
 |---|------------|----------|
-| 01 | ML Foundations: Python, NumPy, Pandas, Statistics & Probability | [Assignment 01 Notebook](Assignment_01_ML_Foundations/week1_subrata_kumar_dey.ipynb) |
-| 02 | End-to-End Machine Learning Pipeline on Sales/Price Data | [Assignment 02 Notebook](Assignment_02_End_to_End_ML_Pipeline/week2_subrata_kumar_dey.ipynb) |
-| 03 | Customer Intelligence System using Classification, Ensemble Learning & Clustering | [Assignment 03 Notebook](Assignment_03_Customer_Intelligence_System/week3_subrata_kumar_dey.ipynb) |
-| 04 | CIFAR-10 Image Classification using ANN, CNN & Data Augmentation | [Assignment 04 Notebook](Assignment_04_CIFAR10_ANN_vs_CNN_Image_Classification/week4_subrata_kumar_dey.ipynb) |
+| 01 | ML Foundations: Python, NumPy, Pandas, Statistics & Probability | [Assignment 01 Notebook](./Assignment_01_ML_Foundations/week1_subrata_kumar_dey.ipynb) |
+| 02 | End-to-End Machine Learning Pipeline on Sales/Price Data | [Assignment 02 Notebook](./Assignment_02_End_to_End_ML_Pipeline/week2_subrata_kumar_dey.ipynb) |
+| 03 | Customer Intelligence System using Classification, Ensemble Learning & Clustering | [Assignment 03 Notebook](./Assignment_03_Customer_Intelligence_System/week3_subrata_kumar_dey.ipynb) |
+| 05 | Text Generation using RNN, LSTM & GRU | [Assignment 05 Notebook](./Assignment_05_Text_Generation_RNN_LSTM_GRU/week5_subrata_kumar_dey.ipynb) |
 
 ---
 
