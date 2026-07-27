@@ -2,9 +2,9 @@
 
 ## Overview
 
-This assignment was completed as part of the **Celebal Excellence Internship (CEI) 2026** under the **Data Science (DS001)** track at **Celebal Technologies**.
+This project was completed as part of the **Celebal Excellence Internship (CEI) 2026** under the **Data Science (DS001)** track at **Celebal Technologies**.
 
-The objective of this assignment was to develop deep learning models capable of removing noise from handwritten digit images using denoising autoencoders. The models were trained using noisy MNIST images as inputs and the corresponding clean images as reconstruction targets.
+The objective of Project 01 was to build a deep learning model capable of removing noise from images using an autoencoder on the **MNIST** dataset. The project explores and compares linear and convolutional autoencoder architectures for reconstructing clean handwritten digit images from noisy inputs.
 
 ---
 
