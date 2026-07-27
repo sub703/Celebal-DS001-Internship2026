@@ -4,7 +4,7 @@ This repository showcases assignments, practical exercises, and project work com
 
 ## Assignments
 
-| # | Assignment | Notebook |
+| # Week | Assignment | Notebook |
 |---|------------|----------|
 | 01 | ML Foundations: Python, NumPy, Pandas, Statistics & Probability | [Assignment 01 Notebook](./Assignment_01_ML_Foundations/week1_subrata_kumar_dey.ipynb) |
 | 02 | End-to-End Machine Learning Pipeline on Sales/Price Data | [Assignment 02 Notebook](./Assignment_02_End_to_End_ML_Pipeline/week2_subrata_kumar_dey.ipynb) |
@@ -16,9 +16,9 @@ This repository showcases assignments, practical exercises, and project work com
 
 ## Projects
 
-| # | Project | Notebook |
+| # Week | Project | Notebook |
 |---|---------|----------|
-| 01 | MNIST Image Denoising using Autoencoders | [Project 01 Notebook](./Project_01_MNIST_Image_Denoising_Autoencoder/MNIST_Denoising_Autoencoder.ipynb) |
+| 06 | MNIST Image Denoising using Autoencoders | [Project 01 Notebook](./Project_01_MNIST_Image_Denoising_Autoencoder/MNIST_Denoising_Autoencoder.ipynb) |
 
 ---
 
