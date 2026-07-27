@@ -14,6 +14,14 @@ This repository showcases assignments, practical exercises, and project work com
 
 ---
 
+## Projects
+
+| # | Project | Notebook |
+|---|---------|----------|
+| 01 | MNIST Image Denoising using Autoencoders | [Project 01 Notebook](./Project_01_MNIST_Image_Denoising_Autoencoder/MNIST_Denoising_Autoencoder.ipynb) |
+
+---
+
 ## Internship Skills Covered (So Far)
 
 Throughout the internship so far, the following concepts, tools, and technologies have been explored:
