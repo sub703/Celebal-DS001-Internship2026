@@ -1,10 +1,10 @@
-# Project 01 – Autoencoder for Image Denoising - Week 06
+# Assignment 06 – Image Denoising using Autoencoders on MNIST
 
 ## Overview
 
 This project was completed as part of the **Celebal Excellence Internship (CEI) 2026** under the **Data Science (DS001)** track at **Celebal Technologies**.
 
-The objective of Project 01 was to build a deep learning model capable of removing noise from images using an autoencoder on the **MNIST** dataset. The project explores and compares linear and convolutional autoencoder architectures for reconstructing clean handwritten digit images from noisy inputs.
+The objective of Assignment 06 was to build a deep learning model capable of removing noise from images using an autoencoder on the **MNIST** dataset. The assignment explores and compares linear and convolutional autoencoder architectures for reconstructing clean handwritten digit images from noisy inputs.
 
 ---
 
@@ -72,7 +72,7 @@ Both models were trained using:
 
 | File | Description |
 |------|-------------|
-| MNIST_Denoising_Autoencoder.ipynb | Completed Week 6 Image Denoising Autoencoder Notebook |
+| MNIST_Denoising_Autoencoder.ipynb | Completed Assignment 06 Image Denoising Autoencoder Notebook |
 | requirements.txt | Python dependencies required to run the project |
 | README.md | Project documentation |
 
