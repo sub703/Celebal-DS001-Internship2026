@@ -58,6 +58,116 @@ flowchart TD
     E --> H
     F --> H
     G --> H
+```
+
+---
+
+## Interactive Mode
+
+The notebook includes an interactive mode that allows users to enter their own queries.
+
+Users can continue interacting with the agent until they enter:
+
+```text
+exit
+```
+
+The notebook can be executed from top to bottom in **Google Colab or Jupyter Notebook**.
+
+---
+
+## Example Queries
+
+Example queries handled by the system include:
+
+```text
+Calculate 20 + 5
+```
+
+```text
+Extract keywords from Artificial Intelligence is transforming industries
+```
+
+```text
+Count the words in this sentence please
+```
+
+```text
+What is machine learning?
+```
+
+The agent identifies the appropriate route and returns the result in the predefined structured format.
+
+---
+
+## Concepts Covered
+
+Through this assignment, the following Agentic AI concepts were explored:
+
+- Single-Agent Systems
+- Agent Pipelines
+- Stateful Directed Graphs
+- Nodes and Edges
+- Conditional Routing
+- Tool-Based Agents
+- Sequential Tool Calls
+- Parallel Tool Calls
+- Cycles and Retry Loops
+- JSON Schema Tools
+- Error Handling
+- Logging and Monitoring
+- Trajectory Evaluation
+- Task Completion Rate
+- Cost Metrics
+- Structured Agent Outputs
+
+---
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `week8_subrata_kumar_dey.ipynb` | Completed Week 8 Single Agent Pipeline notebook |
+| `quiz_answers.md` | Answers to the Week 8 Single Agent Systems & Agent Pipelines quiz |
+| `requirements.txt` | Environment and dependency information |
+| `Assignment_08_Problem_Statement.ipynb` | Assignment problem statement |
+| `Week_08_Quiz.pdf` | Week 8 quiz document |
+| `README.md` | Project documentation |
+
+---
+
+## Requirements
+
+The project uses only the **Python standard library**.
+
+No additional third-party packages are required.
+
+The implementation primarily uses built-in Python modules such as:
+
+- `re`
+- `logging`
+
+The notebook can be executed using **Python 3** in:
+
+- Google Colab
+- Jupyter Notebook
+
+---
+
+## Learning Outcomes
+
+This assignment provided practical experience with:
+
+- Designing a basic agentic AI workflow
+- Building tool-based single-agent systems
+- Implementing rule-based conditional routing
+- Structuring tool inputs and outputs
+- Handling errors in agent workflows
+- Logging agent decisions
+- Designing modular tools
+- Understanding agent workflow architecture
+- Evaluating agent trajectories
+- Understanding task completion and cost metrics
 
 ---
 
