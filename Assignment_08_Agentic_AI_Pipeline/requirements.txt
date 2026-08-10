@@ -1,0 +1,4 @@
+# This project runs on the Python standard library only.
+# The notebook uses the built in "re" and "logging" modules,
+# both of which ship with Python, so there is nothing to install.
+# Just run the notebook in Google Colab or Jupyter with Python 3.
