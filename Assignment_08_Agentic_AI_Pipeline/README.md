@@ -44,17 +44,29 @@ The routing logic checks the rules in sequence, and the **first matching rule de
 
 The basic workflow of the system is:
 
-```text
-User Query
-    ↓
-Query Analysis
-    ↓
-Conditional Routing
-    ↓
-┌──────────────┬──────────────────┬────────────────┬─────────────────┐
-│              │                  │                │                 │
-Calculator   Keywords         Word Count      General Response
-│              │                  │                │
-└──────────────┴──────────────────┴────────────────┴─────────────────┘
-                         ↓
-                  Structured Output
+```mermaid
+flowchart TD
+    A[User Query] --> B[Query Analysis]
+    B --> C{Conditional Routing}
+
+    C --> D[Calculator Tool]
+    C --> E[Keyword Extraction Tool]
+    C --> F[Word Count Tool]
+    C --> G[General Response Handler]
+
+    D --> H[Structured Output]
+    E --> H
+    F --> H
+    G --> H
+
+---
+
+## Author
+
+**Subrata Kumar Dey**
+
+Data Science Intern – CEI 2026
+
+B.Tech CSE (Cyber Security & Privacy)
+
+DIT University
