@@ -170,8 +170,7 @@ Celebal-DS001-Internship2026/
 │
 └── README.md
 
----
-
+```
 ---
 
 ## Author
